@@ -70,6 +70,9 @@ const NewLead = () => {
           className="w-full rounded-lg border-[1.5px] border-stroke bg-transparent py-3 px-5 font-medium outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-whiter dark:border-form-strokedark dark:bg-form-input dark:focus:border-primary"
         ></textarea>
       </div>
+      <button className="bg-main m-auto mt-7 w-[200px] h-56px rounded-lg p-3 flex justify-center items-center font-bold text-white">
+        Add Lead
+      </button>
     </>
   );
 };
